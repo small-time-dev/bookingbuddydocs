@@ -72,8 +72,9 @@ Please use caution when accessing this sheet.
 
 
 # Adding bookings
-## Before bookings from Google forms
-To operate properly, there are certain characters that can cause problems. Though this standard should already be adhered to when each Google form is created, it is still important to know.
+## Bookings from Google forms
+Certain characters can cause problems. 
+This standard should already be adhered to when each Google form is created, though, it is still important to check the bookings before transforming them.
 Standard:
 A singular day to book should be entered into the form like so:
 "Monday 18th December - Ninja Parc Soft Play and Warrior Corse & Blaxland Riverside Park ($20)"
