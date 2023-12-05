@@ -198,6 +198,7 @@ This format is ***strict***. Incorrect formatting can lead to further issues in 
 This process takes approximately 10 seconds.
 
 How it works: Updates the changes from Search results onto All bookings, gets the clients bookings from All Bookings, gets the clients sheetID (or creates a new one if not found), in clients booking buddy sheet: unhides all rows, removes "Week: " rows, removes row borders, add new bookings, at top and bottom border, add formula to last column, adds "Week: " rows, hides PUDO columns (if empty), hides previous bookings, deletes a number of extra rows from bottom of sheet
+
 #
 ## All sheets
 ***As this updates all sheets, review all bookings to avoid errors***
@@ -210,6 +211,8 @@ How it works: Updates the changes from Search results onto All bookings, gets th
 4. Click "Update all Booking Buddy's.
 
 This may take approximately 10-20 seconds per participant
+
+How it works: Gets a list of names for each person in the "All bookings" sheet. Then it set timers and periodically checks the timers to see if it will be able to complete the process, if it won't finish then it will set a trigger and remember where to start from after 2 minutes. The individual sheet updating is the same as [A single sheet](#a-single-sheet)
 
 
 
