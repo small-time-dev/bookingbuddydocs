@@ -63,13 +63,16 @@ Please use caution when accessing this sheet.
 #
 #
 # Before starting
-1. Check if anyone is currently using the sheet and if they are, communicate with them to make sure you aren't interfering with their work. You will see a circle containing a letter in the top right ***** get 
+1. Check if anyone is currently using the sheet and if they are, communicate with them to make sure you aren't interfering with their work. You will see a circle containing a letter in the top right. Click it and it will take you to where they are in the sheet!
+
+
 2. Go to "Search results", select the drop down (row 3 column C->E) and select "empty" (you can also type to find it).
+
 3. Click Retrieve & Save bookings (this will stop duplication errors or overwriting your current work)
 
 
-## Adding bookings
-# Before bookings from Google forms
+# Adding bookings
+## Before bookings from Google forms
 To operate properly, there are certain characters that can cause problems. Though this standard should already be adhered to when each Google form is created, it is still important to know.
 Standard:
 A singular day to book should be entered into the form like so:
