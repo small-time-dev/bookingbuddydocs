@@ -2,8 +2,14 @@
 
 This page contains information, instructions and formatting standards for Booking Buddy.
 
+- [Readme First!](#readme-first)
+- [What has changed in Version 2?](#what-has-changed-in-version-2)
+- [Before starting](#before-starting)
+- [Adding bookings](#adding-bookings)
 
-# Read First!
+
+
+# Readme First!
 Booking Buddy manages our Participants bookings.
 
 Booking Buddy can:
@@ -17,18 +23,18 @@ Booking Buddy can:
 8. Update all client booking buddy's at once ("All bookings")
 
 
-Pages:
+Tabs:
 1. All bookings
 2. Search results
 3. Sheet ID Keys (hidden)
 4. Create Bookings
 5. Raw data
 
-* Sheet ID Keys is hidden because crucial it is crucial for creating and updating each Participants sheet. 
+Sheet ID Keys is hidden because crucial it is crucial for creating and updating each Participants sheet. 
 If you need to find a Participants Email or a Participant appears to have multiple Booking Buddy's (spaces were present in Clients name etc), you can investigate here. Please use caution in this sheet.
 
 
-# What has changed in Version 2?
+### What has changed in Version 2?
 1. Date for a given booking is now only handled in one column (B).
 This speeds up sorting, transforming and sheet updating
 2. Booking Buddy update and creation now use Participant Name (not Email). This allows families with multiple Participants to have a Booking Buddy for each child.
@@ -38,15 +44,7 @@ This speeds up sorting, transforming and sheet updating
 
 
 
-## Booking Buddy is built on top of Google Sheet. Due to this, we have to keep in mind a few things to use it properly.
-Spaces (also known as whitespace) matter... a lot!
-Clients names should not have spaces before or after their name.
-Column I & J (in "All bookings" and "Search results") display the format "8:45 am" but must be entered as in 24 hour format "08:45".
-Accidentally clicking and dragging certain cells (resulting in the cell being moved) can cause further problems. If you run into a problem like this, pressing Undo (Command Z on Mac, Ctrl Z on Windows).
 
-Quirk: The "Retrieve & Save bookings" button will search for the "All bookings" tab and will update each matched bookings. This means that all of a given Participants bookings in "Search results" will overwrite the same bookings in "All bookings"
-
-Helpful tip: To select Participants Names easier in "Search results" (row 3 column C->E), sorting the "All bookings" by Date in the "All bookings" tab will make the list alphabetical.
 
 
 
@@ -194,3 +192,16 @@ The cell will automatically format itself.
 ## Create bookings sheet
 To use this sheet to create a booking for a participant, they must already have a booking buddy.
 Using this sheet to create a booking matches the participants name with their email and avoids errors. It also allows you to create repeating bookings at the given interval.
+
+
+
+
+## Booking Buddy is built on top of Google Sheet. Due to this, we have to keep in mind a few things to use it properly.
+Spaces (also known as whitespace) matter... a lot!
+Clients names should not have spaces before or after their name.
+Column I & J (in "All bookings" and "Search results") display the format "8:45 am" but must be entered as in 24 hour format "08:45".
+Accidentally clicking and dragging certain cells (resulting in the cell being moved) can cause further problems. If you run into a problem like this, pressing Undo (Command Z on Mac, Ctrl Z on Windows).
+
+Quirk: The "Retrieve & Save bookings" button will search for the "All bookings" tab and will update each matched bookings. This means that all of a given Participants bookings in "Search results" will overwrite the same bookings in "All bookings"
+
+Helpful tip: To select Participants Names easier in "Search results" (row 3 column C->E), sorting the "All bookings" by Date in the "All bookings" tab will make the list alphabetical.
