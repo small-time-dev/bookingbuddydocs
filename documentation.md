@@ -35,7 +35,7 @@ Sheet Tabs:
 ### Caution 
 ***Sheet ID Keys*** is hidden because it is ***crucial*** for creating and updating each Participants sheet. 
 Changes to this sheet will create issues.
-If you need to find a Participants Email or a Participant appears to have multiple Booking Buddy's (spaces were present in Clients name etc), you can investigate here. 
+If you need to find a Participants Email or a Participant appears to have multiple Booking Buddy's (***spaces*** were present in Clients name etc), you can investigate here. 
 Please use caution when accessing this sheet.
 
 
@@ -93,7 +93,7 @@ This quirk is due to how Booking Buddy is built, and solving this problem in cod
 
 2. Enter the participants email, name, and bookings on the next available row (@ or after row 7). 
 
-Check that there is no additional spaces before are after the participants name or email. ***This is very important***.
+Check that there is no additional ***spaces*** before are after the participants name or email. ***This is very important***.
 
 3. Once ready, click the "Prepare bookings" button.
 These newly transformed bookings will appear at the bottom at the bottom of the list of bookings in "All bookings". 
@@ -183,15 +183,24 @@ This format is strict. Incorrect formatting can lead to further issues in Bookin
 
 # Updating sheets
 ## A single sheet
-Go to "Search results"
-1. Select the drop down (row 3 column C->E) and select the Participant of interest (you can also type to find it).
-2. Click the "Retrieve & Save bookings" button
-3. Make the relevant changes
-4. When ready, click the "Update this clients booking sheet" button
-5. It is best practice to open the clients booking sheet (column F cell 4) to make sure the the bookings have been added and formatted correctly.
+1. Go to "Search results"
+
+2. Select the drop down (row 3 column C->E) and select the Participant of interest (you can also type to find it).
+
+3. Click the "Retrieve & Save bookings" button
+
+4. Make the relevant changes
+
+5. When ready, click the "Update this clients booking sheet" button
+
+6. It is best practice to open the clients booking sheet (column F cell 4) to make sure the the bookings have been added and formatted correctly.
 
 ## All sheet
-***As this updates all sheets, quickly review all bookings to avoid errors***
+***As this updates all sheets, review all bookings to avoid errors***
+1. Go to "All bookings"
+
+2.
+
 
 
 
@@ -217,14 +226,17 @@ Do not use the "-" inside of an activity. Instead, use & or @ or anything else.
 ## Raw data input
 
 
+
+
+
 ## All bookings sheet
 # Critical
-For the spreadsheet to work correctly, each booking must have the correct email attached to it. Make sure there is no spaces before or after the email!
+For the spreadsheet to work correctly, each booking must have the correct email attached to it. Make sure there is no ***spaces*** before or after the email!
 
 # PUDO times:
 Enter times in 24 hour format as 00:00
 For example: 06:00, 10:00, 13:00, 21:00.
-Make sure there are no spaces before or after the time.
+Make sure there are no ***spaces*** before or after the time.
 The cell will automatically format itself.
 
 
@@ -238,8 +250,8 @@ Using this sheet to create a booking matches the participants name with their em
 
 
 ## Booking Buddy is built on top of Google Sheet. Due to this, we have to keep in mind a few things to use it properly.
-Spaces (also known as whitespace) matter... a lot!
-Clients names should not have spaces before or after their name.
+***Spaces*** (also known as whitespace) matter... a lot!
+Clients names should not have ***spaces*** before or after their name.
 Column I & J (in "All bookings" and "Search results") display the format "8:45 am" but must be entered as in 24 hour format "08:45".
 Accidentally clicking and dragging certain cells (resulting in the cell being moved) can cause further problems. If you run into a problem like this, pressing Undo (Command Z on Mac, Ctrl Z on Windows).
 
