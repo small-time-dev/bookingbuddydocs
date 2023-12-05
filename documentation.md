@@ -3,11 +3,11 @@
 This page contains information, instructions and formatting standards for Booking Buddy.
 
 - [Readme First!](#readme-first)
-- [What has changed in Version 2?](#what-has-changed-in-version-2)
-- [Formatting Standards](#formatting-standards)
+-- [What has changed in Version 2?](#what-has-changed-in-version-2)
+-- [Formatting Standards](#formatting-standards)
 - [Instructions](#instructions)
-- [Before starting](#before-starting)
-- [Adding bookings](#adding-bookings)
+-- [Before starting](#before-starting)
+-- [Adding bookings](#adding-bookings)
 - [Creating one-off and recurring bookings](#creating-one-off-and-recurring-bookings)
 - [Before updating sheets](#before-updating-sheets)
 - [Updating sheets](#updating-sheets)
