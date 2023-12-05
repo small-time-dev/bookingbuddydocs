@@ -54,6 +54,34 @@ Please use caution when accessing this sheet.
 5. The link for a clients sheet is now a descriptive hyperlink, e.g. "Click this link for John Johnson's Booking Buddy".
 
 
+# Formatting Standards
+Booking Buddy is built on top of Google Sheet. Due to this, we have to keep in mind a few things to use it properly.
+### Spaces
+***Spaces*** (also known as whitespace) matter... a lot!
+Clients names should not have ***spaces*** before or after their name.
+
+
+### PUDO times:
+Enter times in 24 hour format as 00:00
+For example: 06:00, 10:00, 13:00, 21:00.
+Make sure there are no ***spaces*** before or after the time.
+The cell will automatically format itself.
+Column I & J (in "All bookings" and "Search results") display the format "8:45 am" but must be entered as in 24 hour format "08:45".
+
+
+### Matching bookings
+For the spreadsheet to work correctly, each booking must have the correct email attached to it. Make sure there is no ***spaces*** before or after the email!
+
+### Accidents
+Accidentally clicking and dragging certain cells (resulting in the cell being moved) can cause further problems. If you run into a problem like this, pressing Undo (Command Z on Mac, Ctrl Z on Windows).
+
+### Quirk
+The "Retrieve & Save bookings" button will search for the "All bookings" tab and will update each matched bookings. This means that all of a given Participants bookings in "Search results" will overwrite the same bookings in "All bookings"
+
+### Helpful tip
+To select Participants Names easier in "Search results" (row 3 column C->E), sorting the "All bookings" by Date in the "All bookings" tab will make the list alphabetical.
+
+
 
 
 
@@ -143,6 +171,12 @@ Only add new bookings to "All bookings". Don't add new bookings to "Search resul
 
 
 
+### Note: Create bookings sheet
+To use this sheet to create a booking for a participant, they must already have a booking buddy.
+Using this sheet to create a booking matches the participants name with their email and avoids errors. It also allows you to create repeating bookings at the given interval.
+
+
+
 
 #
 #
@@ -197,7 +231,7 @@ This format is ***strict***. Incorrect formatting can lead to further issues in 
 
 This process takes approximately 10 seconds.
 
-How it works: Updates the changes from Search results onto All bookings, gets the clients bookings from All Bookings, gets the clients sheetID (or creates a new one if not found), in clients booking buddy sheet: unhides all rows, removes "Week: " rows, removes row borders, add new bookings, at top and bottom border, add formula to last column, adds "Week: " rows, hides PUDO columns (if empty), hides previous bookings, deletes a number of extra rows from bottom of sheet
+*How it works*: Updates the changes from Search results onto All bookings, gets the clients bookings from All Bookings, gets the clients sheetID (or creates a new one if not found), in clients booking buddy sheet: unhides all rows, removes "Week: " rows, removes row borders, add new bookings, at top and bottom border, add formula to last column, adds "Week: " rows, hides PUDO columns (if empty), hides previous bookings, deletes a number of extra rows from bottom of sheet
 
 #
 ## All sheets
@@ -212,12 +246,12 @@ How it works: Updates the changes from Search results onto All bookings, gets th
 
 This may take approximately 10-20 seconds per participant
 
-How it works: Gets a list of names for each person in the "All bookings" sheet. Then it set timers and periodically checks the timers to see if it will be able to complete the process, if it won't finish then it will set a trigger and remember where to start from after 2 minutes. The individual sheet updating is the same as [A single sheet](#a-single-sheet)
+*How it works*: Gets a list of names for each person in the "All bookings" sheet. Then it set timers and periodically checks the timers to see if it will be able to complete the process, if it won't finish then it will set a trigger and remember where to start from after 2 minutes. The individual sheet updating is the same as [A single sheet](#a-single-sheet)
 
 
 
 
-
+#
 ## Errors
 If you encounter an error, please email curtis@careculture.com.au with the subject: Booking Buddy Error
 
@@ -227,47 +261,12 @@ In the body, describe what the error said, what you are doing and what you did i
 
 
 
-### Pre-sheet form
-
-A singular day to book should be entered into the form like so:
-"Monday 18th December - Ninja Parc Soft Play and Warrior Corse & Blaxland Riverside Park ($20)"
-
-The "-" Symbol is used to separate the date and the activity; Date: "Monday 18th December", Activity: "Ninja Parc Soft Play and Warrior Corse & Blaxland Riverside Park ($20)"
-
-Do not use the "-" inside of an activity. Instead, use & or @ or anything else.
-
-## Raw data input
 
 
 
 
 
-## All bookings sheet
-# Critical
-For the spreadsheet to work correctly, each booking must have the correct email attached to it. Make sure there is no ***spaces*** before or after the email!
-
-# PUDO times:
-Enter times in 24 hour format as 00:00
-For example: 06:00, 10:00, 13:00, 21:00.
-Make sure there are no ***spaces*** before or after the time.
-The cell will automatically format itself.
-
-
-## Search results sheet
-
-## Create bookings sheet
-To use this sheet to create a booking for a participant, they must already have a booking buddy.
-Using this sheet to create a booking matches the participants name with their email and avoids errors. It also allows you to create repeating bookings at the given interval.
 
 
 
 
-## Booking Buddy is built on top of Google Sheet. Due to this, we have to keep in mind a few things to use it properly.
-***Spaces*** (also known as whitespace) matter... a lot!
-Clients names should not have ***spaces*** before or after their name.
-Column I & J (in "All bookings" and "Search results") display the format "8:45 am" but must be entered as in 24 hour format "08:45".
-Accidentally clicking and dragging certain cells (resulting in the cell being moved) can cause further problems. If you run into a problem like this, pressing Undo (Command Z on Mac, Ctrl Z on Windows).
-
-Quirk: The "Retrieve & Save bookings" button will search for the "All bookings" tab and will update each matched bookings. This means that all of a given Participants bookings in "Search results" will overwrite the same bookings in "All bookings"
-
-Helpful tip: To select Participants Names easier in "Search results" (row 3 column C->E), sorting the "All bookings" by Date in the "All bookings" tab will make the list alphabetical.
