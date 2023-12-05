@@ -31,6 +31,7 @@ Tabs:
 5. Raw data
 
 
+#
 ### Caution 
 Sheet ID Keys is hidden because crucial it is crucial for creating and updating each Participants sheet. 
 Changes to this sheet will create issues.
@@ -38,12 +39,19 @@ If you need to find a Participants Email or a Participant appears to have multip
 Please use caution when accessing this sheet.
 
 
+
+
+#
 ## What has changed in Version 2?
-1. Date for a given booking is now only handled in one column (B).
-This speeds up sorting, transforming and sheet updating
-2. Booking Buddy update and creation now use Participant Name (not Email). This allows families with multiple Participants to have a Booking Buddy for each child.
-3. Removed columns: "PUDO Wanted?", "Info for sheet" & "Information added during booking (not copied to booking sheet)"
-4. The link for a clients sheet is now a descriptive hyperlink, e.g. "Click this link for John Johnson's Booking Buddy".
+1. Update all sheets button
+
+2. Date for a given booking is now only handled in one column (B). This speeds up sorting, transforming and sheet updating.
+
+3. Booking Buddy update and creation now use Participant Name (not Email). This allows families with multiple Participants to have a Booking Buddy for each child.
+
+4. Removed columns: "PUDO Wanted?", "Info for sheet" & "Information added during booking (not copied to booking sheet)" from Booking Buddy, and "Additional Information" from individual client sheets.
+
+5. The link for a clients sheet is now a descriptive hyperlink, e.g. "Click this link for John Johnson's Booking Buddy".
 
 
 
