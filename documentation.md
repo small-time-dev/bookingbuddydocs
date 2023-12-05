@@ -145,32 +145,44 @@ Only add new bookings to "All bookings". Don't add new bookings to "Search resul
 
 
 
-## Cleaning & preparing bookings prior to updating sheets
-Go to the "All bookings" tab
-1. Sort by date
-2. For each given program day, make sure the value in "Activity & Cost" (column F) is correct in each related row. Be aware that many types of bookings can occur on each given day (1:1's + School Holiday Program etc).
-3. Do the same as above (point 2.) and ensure Booking Time (column E) is present and correct. Again, be aware of many types of bookings on a given day.
-4. If working on group programs, update columns G -> K where relevant.
+# Before updating sheets
+## Clean & prepare bookings
+1. Go to the "All bookings" tab
+
+2. Sort by date
+
+3. For each given program day, make sure the value in "Activity & Cost" (column F) is correct in each related row. 
+Be aware that many types of bookings can occur on each given day (1:1's + School Holiday Program etc).
+
+4. Do the same as above (point 2.) and ensure Booking Time (column E) is present and correct. 
+Again, be aware of many types of bookings on a given day.
+
+5. If working on group programs, update columns G -> K where relevant.
+
+
+## Confirm/Waitlist
+1. Click the check box on either Confirm or Waitlist (column G and H, respectively). 
+
+Your selection will eventually appear in the Participants Booking Buddy. 
+
+If you do not check either check box, the booking will not appear in the Participants Booking Buddy.
 
 
 
+## Pick up & Drop off (PUDO)
+If the Participant will have a Pick up or Drop off (PUDO), you must pay special attention to how you enter the time. 
+PUDO timings are entered in column I and J.
 
-
-# Confirm/Waitlist
-Click the check box on either Confirm or Waitlist (column G and H, respectively). Your selection will eventually appear in the Participants Booking Buddy. If you do not check either check box, the booking will not appear in the Participants Booking Buddy.
-
-
-
-## PUDO
-If the Participant will have a Pick up or Drop off (PUDO), you must pay special attention to how you enter the time. PUDO timings are entered in column I and J.
 PUDO timings must be entered in the format -> 00:00 (HH:MM). This is in 24 hour time (10:00 = 10 pm, 13:00 = 1 pm, 21:00 = 9 pm).
+
 This format is strict. Incorrect formatting can lead to further issues in Booking Buddy.
 
 
 
 
 
-## Updating a clients shift
+# Updating sheets
+## A single sheet
 Go to "Search results"
 1. Select the drop down (row 3 column C->E) and select the Participant of interest (you can also type to find it).
 2. Click the "Retrieve & Save bookings" button
@@ -178,6 +190,8 @@ Go to "Search results"
 4. When ready, click the "Update this clients booking sheet" button
 5. It is best practice to open the clients booking sheet (column F cell 4) to make sure the the bookings have been added and formatted correctly.
 
+## All sheet
+***As this updates all sheets, quickly review all bookings to avoid errors***
 
 
 
