@@ -5,6 +5,7 @@ This page contains information, instructions and formatting standards for Bookin
 - [Readme First!](#readme-first)
 - [What has changed in Version 2?](#what-has-changed-in-version-2)
 - [Formatting Standards](#formatting-standards)
+- [Instructions](#instructions)
 - [Before starting](#before-starting)
 - [Adding bookings](#adding-bookings)
 - [Creating one-off and recurring bookings](#creating-one-off-and-recurring-bookings)
@@ -59,20 +60,21 @@ Please use caution when accessing this sheet.
 
 5. The link for a clients sheet is now a descriptive hyperlink, e.g. "Click this link for John Johnson's Booking Buddy".
 
-
-# Formatting Standards
+#
+## Formatting Standards
 Booking Buddy is built on top of Google Sheet. Due to this, we have to keep in mind a few things to use it properly.
 ### Spaces
 ***Spaces*** (also known as whitespace) matter... a lot!
 Clients names should not have ***spaces*** before or after their name.
 
 
-### PUDO times:
+### Pick up & Drop off times
 Enter times in 24 hour format as 00:00
 For example: 06:00, 10:00, 13:00, 21:00.
 Make sure there are no ***spaces*** before or after the time.
 The cell will automatically format itself.
 Column I & J (in "All bookings" and "Search results") display the format "8:45 am" but must be entered as in 24 hour format "08:45".
+PUDO = Pick up & Drop off
 
 
 ### Matching bookings
@@ -92,9 +94,9 @@ To select Participants Names easier in "Search results" (row 3 column C->E), sor
 
 
 
-
-
 #
+#
+# Instructions
 #
 # Before starting
 1. Check if anyone is currently using the sheet and if they are, communicate with them to make sure you aren't interfering with their work. You will see a circle containing a letter in the top right. Click it and it will take you to where they are in the sheet!
