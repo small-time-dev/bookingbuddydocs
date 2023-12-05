@@ -88,21 +88,18 @@ This quirk is due to how Booking Buddy is built, and solving this problem in cod
 
 
 ## Bookings from Google forms
-Go to the "Raw data" tab
-Enter the participants email, name, and bookings on the next available row (@ or after row 7). 
-*Check that there is no additional spaces before are after the participants name or email.* This is very important.
-
-Once ready, click the "Prepare bookings" button.
+1. Go to the "Raw data" tab
+2. Enter the participants email, name, and bookings on the next available row (@ or after row 7). 
+Check that there is no additional spaces before are after the participants name or email. ***This is very important***.
+3. Once ready, click the "Prepare bookings" button.
 These newly transformed bookings will appear at the bottom at the bottom of the list of bookings in "All bookings". 
-It is best practice to check that all the bookings have been added, check each row against the bookings listed in the relevant Google form.
-
-Next, Add the Booking Time (column E), e.g. "9 am to 3 pm". This format is not strict, but looks nice.
-
-Lastly, make sure each booking has the correct clients email in the final column (L)
+4. It is best practice to check that all the bookings have been added, check each row against the bookings listed in the relevant Google form.
+5. Next, Add the Booking Time (column E), e.g. "9 am to 3 pm". This format is not strict, but looks nice.
+6. Lastly, make sure each booking has the correct clients email in the final column (L)
 
 
 
-# Adding bookings directly:
+## Adding bookings directly:
 Go to the "All bookings" tab
 Only add new bookings to "All bookings". Don't add new bookings to "Search results".
 
