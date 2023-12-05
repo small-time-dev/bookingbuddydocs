@@ -90,47 +90,56 @@ This quirk is due to how Booking Buddy is built, and solving this problem in cod
 
 ## Bookings from Google forms
 1. Go to the "Raw data" tab
+
 2. Enter the participants email, name, and bookings on the next available row (@ or after row 7). 
+
 Check that there is no additional spaces before are after the participants name or email. ***This is very important***.
+
 3. Once ready, click the "Prepare bookings" button.
 These newly transformed bookings will appear at the bottom at the bottom of the list of bookings in "All bookings". 
+
 4. It is best practice to check that all the bookings have been added, check each row against the bookings listed in the relevant Google form.
+
 5. Next, Add the Booking Time (column E), e.g. "9 am to 3 pm". This format is not strict, but looks nice.
+
 6. Lastly, make sure each booking has the correct clients email in the final column (L)
 
 
 
 ## Adding bookings directly:
-Go to the "All bookings" tab
+1. Go to the "All bookings" tab
 Only add new bookings to "All bookings". Don't add new bookings to "Search results".
 
-Enter the Participants' name in column A, ensuring their name is an identical match with their name in "All bookings", or "Sheet ID Keys" if no bookings present.
+2. Enter the Participants' name in column A, ensuring their name is an identical match with their name in "All bookings", or "Sheet ID Keys" if no bookings present.
 
-Enter the Participants' email in column L, again ensuring their email is an identical match with their email in "All bookings", or "Sheet ID Keys" if no bookings present.
+3. Enter the Participants' email in column L, again ensuring their email is an identical match with their email in "All bookings", or "Sheet ID Keys" if no bookings present.
 
-Enter the date in column B (format DD/MM/YYYY, e.g. 16/12/2023)
+4. Enter the date in column B (format DD/MM/YYYY, e.g. 16/12/2023)
 
-Column C & D refer to column B, you can enter this formula =INDIRECT("B" & ROW()) or copy C & D from a row above and paste them into this row.
+5. Column C & D refer to column B, you can enter this formula =INDIRECT("B" & ROW()) or copy C & D from a row above and paste them into this row.
 
-Now complete columns E, F, G, I, J and K as needed.
+6. Now complete columns E, F, G, I, J and K as needed.
 
 
 
 # Creating one-off and recurring bookings:
-* To create a one-off or recurring booking, a Participant must already have a Booking Buddy.
-Go to the "Create Bookings" tab
+*** To create a one-off or recurring booking, a Participant must already have a Booking Buddy.***
 
-Begin typing the Participants name in column A and select the correct name.
+1. Go to the "Create Bookings" tab
 
-Type the date of the first shift (format DD/MM/YY 14/05/23) into column B
-Type the booking time in column C (e.g. 3 pm to 7 pm)
+2. Begin typing the Participants name in column A and select the correct name.
 
-Select the Booking Type in column D.
-Add the Program or Staff name. This will be displayed as "Booking Type - Program/Staff Name", e.g. "Saturday Program - Ryde Aquatic Centre"
+3. Type the date of the first shift (format DD/MM/YY 14/05/23) into column B
 
-Select the frequency, then type in the number of bookings to create.
+4. Type the booking time in column C (e.g. 3 pm to 7 pm)
 
-Click the "Create bookings" button
+5. Select the Booking Type in column D.
+
+6. Add the Program or Staff name. This will be displayed as "Booking Type - Program/Staff Name", e.g. "Saturday Program - Ryde Aquatic Centre"
+
+7. Select the frequency, then type in the number of bookings to create.
+
+8. Click the "Create bookings" button
 
 
 
