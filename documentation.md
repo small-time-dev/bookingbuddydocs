@@ -8,11 +8,17 @@ This page contains information, instructions and formatting standards for Bookin
 - [Instructions](#instructions)
 - [Before starting](#before-starting)
 - [Adding bookings](#adding-bookings)
+    - [Bookings from Google forms](#bookings-from-Google-forms)
+    - [Adding bookings directly](#adding-bookings-directly)
+    - [Creating one-off and recurring bookings](#creating-one-off-and-recurring-bookings)
 - [Before updating sheets](#before-updating-sheets)
+    - [Clean & prepare bookings](#clean-&-prepare-bookings)
+    - [Confirm/Waitlist](#confirm/waitlist)
+    - [Pick up & Drop off (PUDO)](#pick-up-&-drop-off-(pudo))
 - [Updating sheets](#updating-sheets)
+    - [A single sheet](#a-single-sheet)
+    - [All sheets](#all-sheets)
 - [Errors](#errors)
-
-
 
 
 # Readme First!
@@ -36,15 +42,12 @@ Sheet Tabs:
 4. Create Bookings
 5. Raw data
 
-
 #
 ### Caution 
 ***Sheet ID Keys*** is hidden because it is ***crucial*** for creating and updating each Participants sheet. 
 Changes to this sheet will create issues.
 If you need to find a Participants Email or a Participant appears to have multiple Booking Buddy's (***spaces*** were present in Clients name etc), you can investigate here. 
 Please use caution when accessing this sheet.
-
-
 
 
 #
@@ -87,10 +90,6 @@ The "Retrieve & Save bookings" button will search for the "All bookings" tab and
 
 ### Helpful tip
 To select Participants Names easier in "Search results" (row 3 column C->E), sorting the "All bookings" by Date in the "All bookings" tab will make the list alphabetical.
-
-
-
-
 
 
 #
@@ -141,7 +140,7 @@ These newly transformed bookings will appear at the bottom at the bottom of the 
 
 
 #
-## Adding bookings directly:
+## Adding bookings directly
 1. Go to the "All bookings" tab
 Only add new bookings to "All bookings". Don't add new bookings to "Search results".
 
@@ -157,7 +156,7 @@ Only add new bookings to "All bookings". Don't add new bookings to "Search resul
 
 
 #
-## Creating one-off and recurring bookings:
+## Creating one-off and recurring bookings
 *** To create a one-off or recurring booking, a Participant must already have a Booking Buddy.***
 
 1. Go to the "Create Bookings" tab
@@ -177,12 +176,9 @@ Only add new bookings to "All bookings". Don't add new bookings to "Search resul
 8. Click the "Create bookings" button
 
 
-
 ### Note: Create bookings sheet
 To use this sheet to create a booking for a participant, they must already have a booking buddy.
 Using this sheet to create a booking matches the participants name with their email and avoids errors. It also allows you to create repeating bookings at the given interval.
-
-
 
 
 #
@@ -217,8 +213,6 @@ PUDO timings are entered in column I and J.
 2. PUDO timings ***must*** be entered in the format -> 00:00 (HH:MM). This is in 24 hour time (10:00 = 10 pm, 13:00 = 1 pm, 21:00 = 9 pm).
 
 This format is ***strict***. Incorrect formatting can lead to further issues in Booking Buddy.
-
-
 
 
 #
@@ -256,10 +250,8 @@ This may take approximately 10-20 seconds per participant
 *How it works*: Gets a list of names for each person in the "All bookings" sheet. Then it set timers and periodically checks the timers to see if it will be able to complete the process, if it won't finish then it will set a trigger and remember where to start from after 2 minutes. The individual sheet updating is the same as [A single sheet](#a-single-sheet)
 
 
-
-
 #
-## Errors
+# Errors
 If you encounter an error, please email curtis@careculture.com.au with the subject: Booking Buddy Error
 
 In the body, describe what the error said, what you are doing and what you did in the sheet before the error (e.g. copied information, attempting to update John Johnson Booking Buddy) and any other information that may be relevant.
