@@ -87,7 +87,7 @@ The "-" Symbol is used to separate the date and the activity; Date: "Monday 18th
 Do not use the "-" inside of an activity. Instead, use & or @ or anything else.
 This quirk is due to how Booking Buddy is built, and solving this problem in code appears to cause more problems than it solves.
 
-
+#
 ## Bookings from Google forms
 1. Go to the "Raw data" tab
 
@@ -105,7 +105,7 @@ These newly transformed bookings will appear at the bottom at the bottom of the 
 6. Lastly, make sure each booking has the correct clients email in the final column (L)
 
 
-
+#
 ## Adding bookings directly:
 1. Go to the "All bookings" tab
 Only add new bookings to "All bookings". Don't add new bookings to "Search results".
@@ -121,8 +121,8 @@ Only add new bookings to "All bookings". Don't add new bookings to "Search resul
 6. Now complete columns E, F, G, I, J and K as needed.
 
 
-
-# Creating one-off and recurring bookings:
+#
+## Creating one-off and recurring bookings:
 *** To create a one-off or recurring booking, a Participant must already have a Booking Buddy.***
 
 1. Go to the "Create Bookings" tab
