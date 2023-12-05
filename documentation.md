@@ -75,7 +75,7 @@ Please use caution when accessing this sheet.
 ## Bookings from Google forms
 Certain characters can cause problems. 
 This standard should already be adhered to when each Google form is created, though, it is still important to check the bookings before transforming them.
-Standard:
+#### Standard
 A singular day to book should be entered into the form like so:
 "Monday 18th December - Ninja Parc Soft Play and Warrior Corse & Blaxland Riverside Park ($20)"
 
