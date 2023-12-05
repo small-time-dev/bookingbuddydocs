@@ -33,7 +33,7 @@ Tabs:
 
 #
 ### Caution 
-Sheet ID Keys is hidden because crucial it is crucial for creating and updating each Participants sheet. 
+***Sheet ID Keys*** is hidden because it is ***crucial*** for creating and updating each Participants sheet. 
 Changes to this sheet will create issues.
 If you need to find a Participants Email or a Participant appears to have multiple Booking Buddy's (spaces were present in Clients name etc), you can investigate here. 
 Please use caution when accessing this sheet.
