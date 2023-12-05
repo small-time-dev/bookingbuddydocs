@@ -78,6 +78,7 @@ This standard should already be adhered to when each Google form is created, tho
 #### Format Standard
 A given day to book should be entered into the form like so:
 "Monday 18th December - Ninja Parc Soft Play and Warrior Corse & Blaxland Riverside Park ($20)".
+
 A cell can contain multiple bookings, for example: "Tuesday 26th September - Bounce Inc. Homebush ($23), Thursday 28th September - Shine Shed ($16), Saturday 30th September - Art Gallery NSW ($5)"
 
 The "-" Symbol is used to separate the date and the activity; Date: "Monday 18th December", Activity: "Ninja Parc Soft Play and Warrior Corse & Blaxland Riverside Park ($20)".
