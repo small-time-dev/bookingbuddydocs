@@ -23,7 +23,7 @@ Booking Buddy can:
 8. Update all client booking buddy's at once ("All bookings")
 
 
-Tabs:
+Sheet Tabs:
 1. All bookings
 2. Search results
 3. Sheet ID Keys (hidden)
@@ -73,6 +73,7 @@ Please use caution when accessing this sheet.
 #
 #
 # Adding bookings
+### A note regarding raw booking format standard
 Certain characters can cause problems. 
 This standard should already be adhered to when each Google form is created, though, it is still important to check the bookings before transforming them.
 #### Format Standard
