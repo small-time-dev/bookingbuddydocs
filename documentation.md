@@ -4,8 +4,14 @@ This page contains information, instructions and formatting standards for Bookin
 
 - [Readme First!](#readme-first)
 - [What has changed in Version 2?](#what-has-changed-in-version-2)
+- [Formatting Standards](#formatting-standards)
 - [Before starting](#before-starting)
 - [Adding bookings](#adding-bookings)
+- [Creating one-off and recurring bookings](#creating-one-off-and-recurring-bookings)
+- [Before updating sheets](#before-updating-sheets)
+- [Updating sheets](#updating-sheets)
+- [Errors](#errors)
+
 
 
 
@@ -256,17 +262,3 @@ This may take approximately 10-20 seconds per participant
 If you encounter an error, please email curtis@careculture.com.au with the subject: Booking Buddy Error
 
 In the body, describe what the error said, what you are doing and what you did in the sheet before the error (e.g. copied information, attempting to update John Johnson Booking Buddy) and any other information that may be relevant.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
