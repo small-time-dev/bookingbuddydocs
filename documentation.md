@@ -59,7 +59,7 @@ Please use caution when accessing this sheet.
 
 
 
-#
+
 #
 #
 # Before starting
@@ -70,14 +70,15 @@ Please use caution when accessing this sheet.
 
 3. Click Retrieve & Save bookings (this will stop duplication errors or overwriting your current work)
 
-
+#
+#
 # Adding bookings
-## Bookings from Google forms
 Certain characters can cause problems. 
 This standard should already be adhered to when each Google form is created, though, it is still important to check the bookings before transforming them.
-#### Standard
-A singular day to book should be entered into the form like so:
-"Monday 18th December - Ninja Parc Soft Play and Warrior Corse & Blaxland Riverside Park ($20)"
+#### Format Standard
+A given day to book should be entered into the form like so:
+"Monday 18th December - Ninja Parc Soft Play and Warrior Corse & Blaxland Riverside Park ($20)".
+A cell can contain multiple bookings, for example: "Tuesday 26th September - Bounce Inc. Homebush ($23), Thursday 28th September - Shine Shed ($16), Saturday 30th September - Art Gallery NSW ($5)"
 
 The "-" Symbol is used to separate the date and the activity; Date: "Monday 18th December", Activity: "Ninja Parc Soft Play and Warrior Corse & Blaxland Riverside Park ($20)".
 
@@ -85,7 +86,7 @@ Do not use the "-" inside of an activity. Instead, use & or @ or anything else.
 This quirk is due to how Booking Buddy is built, and solving this problem in code appears to cause more problems than it solves.
 
 
-# Entering bookings from Google forms
+## Bookings from Google forms
 Go to the "Raw data" tab
 Enter the participants email, name, and bookings on the next available row (@ or after row 7). 
 *Check that there is no additional spaces before are after the participants name or email.* This is very important.
