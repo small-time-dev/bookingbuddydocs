@@ -30,11 +30,15 @@ Tabs:
 4. Create Bookings
 5. Raw data
 
+
+### Caution 
 Sheet ID Keys is hidden because crucial it is crucial for creating and updating each Participants sheet. 
-If you need to find a Participants Email or a Participant appears to have multiple Booking Buddy's (spaces were present in Clients name etc), you can investigate here. Please use caution in this sheet.
+Changes to this sheet will create issues.
+If you need to find a Participants Email or a Participant appears to have multiple Booking Buddy's (spaces were present in Clients name etc), you can investigate here. 
+Please use caution when accessing this sheet.
 
 
-### What has changed in Version 2?
+## What has changed in Version 2?
 1. Date for a given booking is now only handled in one column (B).
 This speeds up sorting, transforming and sheet updating
 2. Booking Buddy update and creation now use Participant Name (not Email). This allows families with multiple Participants to have a Booking Buddy for each child.
