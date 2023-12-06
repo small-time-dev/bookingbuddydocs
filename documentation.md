@@ -52,7 +52,7 @@ Please use caution when accessing this sheet.
 
 #
 ## What has changed in Version 2?
-1. Update all sheets button
+1. Update all sheets button. You will receive an email to confirm this process finished successfully.
 
 2. Date for a given booking is now only handled in one column (B). This speeds up sorting, transforming and sheet updating.
 
@@ -61,6 +61,8 @@ Please use caution when accessing this sheet.
 4. Removed columns: "PUDO Wanted?", "Info for sheet" & "Information added during booking (not copied to booking sheet)" from Booking Buddy, and "Additional Information" from individual client sheets.
 
 5. The link for a clients sheet is now a descriptive hyperlink, e.g. "Click this link for John Johnson's Booking Buddy".
+
+6. "Week: " rows are no longer added to the "All bookings" sheet
 
 #
 ## Formatting Standards
