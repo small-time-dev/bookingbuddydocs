@@ -62,7 +62,7 @@ Please use caution when accessing this sheet.
 
 5. The link for a clients sheet is now a descriptive hyperlink, e.g. "Click this link for John Johnson's Booking Buddy".
 
-6. "Week: " rows are no longer added to the "All bookings" sheet
+6. "Week: " rows are no longer added to the "All bookings" sheet when sorting by date.
 
 #
 ## Formatting Standards
