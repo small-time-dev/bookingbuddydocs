@@ -251,6 +251,8 @@ This process takes approximately 10 seconds.
 
 4. Click "Update all Booking Buddy's.
 
+5. You will receive an email when it's completed.
+
 This may take approximately 10-20 seconds per participant
 
 *How it works*: Gets a list of names for each person in the "All bookings" sheet. Then it set timers and periodically checks the timers to see if it will be able to complete the process, if it won't finish then it will set a trigger and remember where to start from after 2 minutes. The individual sheet updating is the same as [A single sheet](#a-single-sheet)
@@ -261,3 +263,4 @@ This may take approximately 10-20 seconds per participant
 If you encounter an error, please email curtis@careculture.com.au with the subject: Booking Buddy Error
 
 In the body, describe what the error said, what you are doing and what you did in the sheet before the error (e.g. copied information, attempting to update John Johnson Booking Buddy) and any other information that may be relevant.
+
