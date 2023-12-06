@@ -67,9 +67,13 @@ Please use caution when accessing this sheet.
 #
 ## Formatting Standards
 Booking Buddy is built on top of Google Sheet. Due to this, we have to keep in mind a few things to use it properly.
+
+### Changing a Date
+Do not change the values in column C & D in the "All bookings" and "Search results" tab. If you need to change the date, do this in column B (Month) using the date format DD/MM/YY (11/05/24)
+
 ### Spaces
 ***Spaces*** (also known as whitespace) matter... a lot!
-Clients names should not have ***spaces*** before or after their name.
+Clients names or emails should not have ***spaces*** before or after their name or email.
 
 
 ### Pick up & Drop off times
