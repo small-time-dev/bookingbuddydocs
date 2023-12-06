@@ -69,7 +69,8 @@ Please use caution when accessing this sheet.
 Booking Buddy is built on top of Google Sheet. Due to this, we have to keep in mind a few things to use it properly.
 
 ### Changing a Date
-Do not change the values in column C & D in the "All bookings" and "Search results" tab. If you need to change the date, do this in column B (Month) using the date format DD/MM/YY (11/05/24)
+Do not change the values in column C & D in the "All bookings" and "Search results" tab. If you need to change the date, do this in column B (Month) using the date format DD/MM/YY (11/05/24).
+
 
 ### Spaces
 ***Spaces*** (also known as whitespace) matter... a lot!
@@ -89,10 +90,10 @@ PUDO = Pick up & Drop off
 For the spreadsheet to work correctly, each booking must have the correct email attached to it. Make sure there is no ***spaces*** before or after the email!
 
 ### Accidents
-Accidentally clicking and dragging certain cells (resulting in the cell being moved) can cause further problems. If you run into a problem like this, pressing Undo (Command Z on Mac, Ctrl Z on Windows).
+Accidentally clicking and dragging certain cells (resulting in the cell being moved) can cause further problems. If you run into a problem like this, pressing Undo (Command Z on Mac, Ctrl Z on Windows) can fix this. Reach out to curtis@careculture.com.au if you need help!
 
 ### Quirk
-The "Retrieve & Save bookings" button will search for the "All bookings" tab and will update each matched bookings. This means that all of a given Participants bookings in "Search results" will overwrite the same booking in "All bookings"
+The "Retrieve & Save bookings" button will search for the "All bookings" tab and will update each matched bookings. This means that all of a given Participants bookings in "Search results" will overwrite the same booking in "All bookings".
 
 ### Helpful tip
 To select Participants Names easier in "Search results" (row 3 column C->E), sorting the "All bookings" by Date in the "All bookings" tab will make the list alphabetical.
@@ -108,7 +109,7 @@ To select Participants Names easier in "Search results" (row 3 column C->E), sor
 
 2. Go to "Search results", select the drop down (row 3 column C->E) and select "empty" (you can also type to find it).
 
-3. Click Retrieve & Save bookings (this will stop duplication errors or overwriting your current work)
+3. Click Retrieve & Save bookings (this will stop duplication errors or overwriting your current work).
 
 #
 #
@@ -120,7 +121,7 @@ This standard should already be adhered to when each Google form is created, tho
 A given day to book should be entered into the form like so:
 "Monday 18th December - Ninja Parc Soft Play and Warrior Corse & Blaxland Riverside Park ($20)".
 
-A cell can contain multiple bookings, for example: "Tuesday 26th September - Bounce Inc. Homebush ($23), Thursday 28th September - Shine Shed ($16), Saturday 30th September - Art Gallery NSW ($5)"
+A cell can contain multiple bookings, for example: "Tuesday 26th September - Bounce Inc. Homebush ($23), Thursday 28th September - Shine Shed ($16), Saturday 30th September - Art Gallery NSW ($5)".
 
 The "-" Symbol is used to separate the date and the activity; Date: "Monday 18th December", Activity: "Ninja Parc Soft Play and Warrior Corse & Blaxland Riverside Park ($20)".
 
@@ -129,7 +130,7 @@ This quirk is due to how Booking Buddy is built, and solving this problem in cod
 
 #
 ## Bookings from Google forms
-1. Go to the "Raw data" tab
+1. Go to the "Raw data" tab.
 
 2. Enter the participants email, name, and bookings on the next available row (@ or after row 7). 
 
@@ -142,19 +143,19 @@ These newly transformed bookings will appear at the bottom at the bottom of the 
 
 5. Next, Add the Booking Time (column E), e.g. "9 am to 3 pm". This format is not strict, but looks nice.
 
-6. Lastly, make sure each booking has the correct clients email in the final column (L)
+6. Lastly, make sure each booking has the correct clients email in the final column (L).
 
 
 #
 ## Adding bookings directly
-1. Go to the "All bookings" tab
+1. Go to the "All bookings" tab.
 Only add new bookings to "All bookings". Don't add new bookings to "Search results".
 
 2. Enter the Participants' name in column A, ensuring their name is an identical match with their name in "All bookings", or "Sheet ID Keys" if no bookings present.
 
 3. Enter the Participants' email in column L, again ensuring their email is an identical match with their email in "All bookings", or "Sheet ID Keys" if no bookings present.
 
-4. Enter the date in column B (format DD/MM/YYYY, e.g. 16/12/2023)
+4. Enter the date in column B (format DD/MM/YYYY, e.g. 16/12/2023).
 
 5. Column C & D refer to column B, you can enter this formula =INDIRECT("B" & ROW()) or copy C & D from a row above and paste them into this row.
 
@@ -165,21 +166,21 @@ Only add new bookings to "All bookings". Don't add new bookings to "Search resul
 ## Creating one-off and recurring bookings
 *** To create a one-off or recurring booking, a Participant must already have a Booking Buddy.***
 
-1. Go to the "Create Bookings" tab
+1. Go to the "Create Bookings" tab.
 
 2. Begin typing the Participants name in column A and select the correct name.
 
-3. Type the date of the first shift (format DD/MM/YY 14/05/23) into column B
+3. Type the date of the first shift (format DD/MM/YY 14/05/23) into column B.
 
-4. Type the booking time in column C (e.g. 3 pm to 7 pm)
+4. Type the booking time in column C (e.g. 3 pm to 7 pm).
 
 5. Select the Booking Type in column D.
 
-6. Add the Program or Staff name. This will be displayed as "Booking Type - Program/Staff Name", e.g. "Saturday Program - Ryde Aquatic Centre"
+6. Add the Program or Staff name. This will be displayed as "Booking Type - Program/Staff Name", e.g. "Saturday Program - Ryde Aquatic Centre".
 
 7. Select the frequency, then type in the number of bookings to create.
 
-8. Click the "Create bookings" button
+8. Click the "Create bookings" button.
 
 
 ### Note: Create bookings sheet
@@ -191,9 +192,9 @@ Using this sheet to create a booking matches the participants name with their em
 #
 # Before updating sheets
 ## Clean & prepare bookings
-1. Go to the "All bookings" tab
+1. Go to the "All bookings" tab.
 
-2. Sort by date
+2. Sort by date.
 
 3. For each given program day, make sure the value in "Activity & Cost" (column F) is correct in each related row. 
 Be aware that many types of bookings can occur on each given day (1:1's + School Holiday Program etc).
@@ -224,28 +225,28 @@ This format is ***strict***. Incorrect formatting can lead to further issues in 
 #
 # Updating sheets
 ## A single sheet
-1. Go to "Search results"
+1. Go to "Search results".
 
 2. Select the drop down (row 3 column C->E) and select the Participant of interest (you can also type to find it).
 
-3. Click the "Retrieve & Save bookings" button
+3. Click the "Retrieve & Save bookings" button.
 
-4. Make the relevant changes
+4. Make the relevant changes.
 
-5. When ready, click the "Update this clients booking sheet" button
+5. When ready, click the "Update this clients booking sheet" button.
 
 6. It is best practice to open the clients booking sheet (column F cell 4) to make sure the the bookings have been added and formatted correctly.
 
 This process takes approximately 10 seconds.
 
-*How it works*: Updates the changes from Search results onto All bookings, gets the clients bookings from All Bookings, gets the clients sheetID (or creates a new one if not found), in clients booking buddy sheet: unhides all rows, removes "Week: " rows, removes row borders, add new bookings, at top and bottom border, add formula to last column, adds "Week: " rows, hides PUDO columns (if empty), hides previous bookings, deletes a number of extra rows from bottom of sheet
+*How it works*: Updates the changes from Search results onto All bookings, gets the clients bookings from All Bookings, gets the clients sheetID (or creates a new one if not found), in clients booking buddy sheet: unhides all rows, removes "Week: " rows, removes row borders, add new bookings, at top and bottom border, add formula to last column, adds "Week: " rows, hides PUDO columns (if empty), hides previous bookings, deletes a number of extra rows from bottom of sheet.
 
 #
 ## All sheets
 ***As this updates all sheets, review all bookings to avoid errors***
-1. Go to "All bookings"
+1. Go to "All bookings".
 
-2. Make changes where needed
+2. Make changes where needed.
 
 3. Check all of the bookings on this page, pay attention for changes in format or missing information.
 
@@ -253,14 +254,14 @@ This process takes approximately 10 seconds.
 
 5. You will receive an email when it's completed.
 
-This may take approximately 10-20 seconds per participant
+This may take approximately 10-20 seconds per participant.
 
-*How it works*: Gets a list of names for each person in the "All bookings" sheet. Then it set timers and periodically checks the timers to see if it will be able to complete the process, if it won't finish then it will set a trigger and remember where to start from after 2 minutes. The individual sheet updating is the same as [A single sheet](#a-single-sheet)
+*How it works*: Gets a list of names for each person in the "All bookings" sheet. Then it set timers and periodically checks the timers to see if it will be able to complete the process, if it won't finish then it will set a trigger and remember where to start from after 2 minutes. The individual sheet updating is the same as [A single sheet](#a-single-sheet).
 
 
 #
 # Errors
-If you encounter an error, please email curtis@careculture.com.au with the subject: Booking Buddy Error
+If you encounter an error, please email curtis@careculture.com.au with the subject: Booking Buddy Error.
 
 In the body, describe what the error said, what you are doing and what you did in the sheet before the error (e.g. copied information, attempting to update John Johnson Booking Buddy) and any other information that may be relevant.
 
