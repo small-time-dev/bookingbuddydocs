@@ -92,7 +92,7 @@ For the spreadsheet to work correctly, each booking must have the correct email 
 Accidentally clicking and dragging certain cells (resulting in the cell being moved) can cause further problems. If you run into a problem like this, pressing Undo (Command Z on Mac, Ctrl Z on Windows).
 
 ### Quirk
-The "Retrieve & Save bookings" button will search for the "All bookings" tab and will update each matched bookings. This means that all of a given Participants bookings in "Search results" will overwrite the same bookings in "All bookings"
+The "Retrieve & Save bookings" button will search for the "All bookings" tab and will update each matched bookings. This means that all of a given Participants bookings in "Search results" will overwrite the same booking in "All bookings"
 
 ### Helpful tip
 To select Participants Names easier in "Search results" (row 3 column C->E), sorting the "All bookings" by Date in the "All bookings" tab will make the list alphabetical.
